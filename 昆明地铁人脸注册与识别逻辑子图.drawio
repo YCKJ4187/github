@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-10T08:08:04.067Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4628.3 Safari/537.36" etag="iLCcYb1ut28Qm1wFBCl-" version="15.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-10T08:09:10.858Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4628.3 Safari/537.36" etag="gGqi6YuLGO32PIkRUHWW" version="15.1.2" type="github">
   <diagram id="4HJHk8hwTrnTySvJUX3-" name="第 1 页">
-    <mxGraphModel dx="8010" dy="1334" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="6345" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1178,7 +1178,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="BiACdV3-vk9zJD2BeTZf-12" value="进站结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="BiACdV3-vk9zJD2BeTZf-12" value="出站结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="2362" y="1320" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="QFfBQqacpw4Q1S9WYrsz-227" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="BiACdV3-vk9zJD2BeTZf-34" target="BiACdV3-vk9zJD2BeTZf-12">
