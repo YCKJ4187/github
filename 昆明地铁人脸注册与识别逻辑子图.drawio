@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-10T03:48:19.843Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4628.3 Safari/537.36" etag="LF9am7Y90O-_fpJ-5dSV" version="15.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-10T06:20:05.947Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4628.3 Safari/537.36" etag="fzXTGP73pJpFBb4zk2zx" version="15.1.2" type="github">
   <diagram id="4HJHk8hwTrnTySvJUX3-" name="第 1 页">
-    <mxGraphModel dx="6623" dy="4078" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="7594" dy="4468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -648,7 +648,7 @@
         <mxCell id="_u0KSfqB_Zb8n4j6yfHZ-26" value="引导用户M重拍人脸" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" parent="1" vertex="1">
           <mxGeometry x="628" y="1830" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="_u0KSfqB_Zb8n4j6yfHZ-37" value="&lt;font style=&quot;font-size: 14px ; line-height: 160%&quot;&gt;备注说明：&lt;br&gt;1. T0&lt;/font&gt;&lt;font style=&quot;line-height: 160%&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;表示默认相似度阈值，T1&lt;/span&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;表示异常用户集的相似度，且T0&lt;/span&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&amp;lt;T1&lt;/span&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;；&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;2. S&lt;/span&gt;&lt;sub style=&quot;font-size: 14px&quot;&gt;max&lt;/sub&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;是指用户M的注册人脸图与人脸大库中逐一比对得到的最大相似度，即Top1的相似度；&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;3. TopN是指用户M的注册人脸图在人脸大库中相似度最高的前N个用户，N可以根据实际情况调整；&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;4. 若用户M在多次注册过程中S&lt;/span&gt;&lt;sub style=&quot;font-size: 14px&quot;&gt;max&lt;/sub&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;都大于T1，建议引导客户不使用刷脸过闸，改用其他过闸方式，如二维码；&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="_u0KSfqB_Zb8n4j6yfHZ-37" value="&lt;font style=&quot;font-size: 14px ; line-height: 160%&quot;&gt;备注说明：&lt;br&gt;1. T0&lt;/font&gt;&lt;font style=&quot;line-height: 160%&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;表示默认相似度阈值，T1&lt;/span&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;表示异常用户集的相似度，且T0&lt;/span&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&amp;lt;T1&lt;/span&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;；&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;2. S&lt;/span&gt;&lt;sub style=&quot;font-size: 14px&quot;&gt;max&lt;/sub&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;是指用户M的注册人脸图与人脸大库中逐一比对得到的最大相似度，即Top1的相似度；&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;3. TopN是指用户M的注册人脸图在人脸大库中相似度最高的前N个用户，&lt;/span&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;N可以根据实际情况调整；&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;4. 若用户M在多次注册过程中S&lt;/span&gt;&lt;sub style=&quot;font-size: 14px&quot;&gt;max&lt;/sub&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;都大于T1，建议引导客户不使用刷脸过闸，改用其他过闸方式，如二维码；&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry y="2830" width="1000" height="120" as="geometry" />
         </mxCell>
         <mxCell id="_u0KSfqB_Zb8n4j6yfHZ-38" value="&lt;span style=&quot;font-size: 32px&quot;&gt;人脸注册查重策略&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -691,12 +691,12 @@
           <mxGeometry x="1390" y="2739" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_u0KSfqB_Zb8n4j6yfHZ-178" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;fontSize=11;" parent="1" source="_u0KSfqB_Zb8n4j6yfHZ-88" edge="1">
-          <mxGeometry x="-1000" y="1600" as="geometry">
-            <mxPoint x="1440" y="2580" as="targetPoint" />
+          <mxGeometry x="-1000" y="1523" as="geometry">
+            <mxPoint x="1440" y="2503" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1270" y="2058" />
-              <mxPoint x="1270" y="2580" />
-              <mxPoint x="1440" y="2580" />
+              <mxPoint x="1270" y="1981" />
+              <mxPoint x="1270" y="2503" />
+              <mxPoint x="1440" y="2503" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -706,7 +706,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_u0KSfqB_Zb8n4j6yfHZ-88" value="客服介入&lt;br&gt;确认是否误刷？" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1340" y="2033" width="200" height="50" as="geometry" />
+          <mxGeometry x="1340" y="1956" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_u0KSfqB_Zb8n4j6yfHZ-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_u0KSfqB_Zb8n4j6yfHZ-90" target="_u0KSfqB_Zb8n4j6yfHZ-84" edge="1">
           <mxGeometry x="1000" y="1600" as="geometry" />
@@ -758,11 +758,11 @@
             <mxPoint x="1440" y="1855" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_u0KSfqB_Zb8n4j6yfHZ-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;opacity=50;dashed=1;" parent="1" source="_u0KSfqB_Zb8n4j6yfHZ-103" target="_u0KSfqB_Zb8n4j6yfHZ-90" edge="1">
-          <mxGeometry x="1000" y="1680" as="geometry" />
+        <mxCell id="QFfBQqacpw4Q1S9WYrsz-184" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="_u0KSfqB_Zb8n4j6yfHZ-103" target="QFfBQqacpw4Q1S9WYrsz-179">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_u0KSfqB_Zb8n4j6yfHZ-103" value="引导用户A更新底库" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" parent="1" vertex="1">
-          <mxGeometry x="1570" y="1830" width="107" height="50" as="geometry" />
+          <mxGeometry x="1660" y="2158.5" width="107" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_u0KSfqB_Zb8n4j6yfHZ-107" value="&lt;font style=&quot;font-size: 14px ; line-height: 160%&quot;&gt;备注说明：&lt;br&gt;1. 本客诉场景为，人员B误识别为了用户A，扣了用户A的钱，因而用户A进行客诉；&lt;br&gt;2. 根据扣费记录，查询到对应的人脸比识别流水号compare_request_id，客服介入做主观判断；&lt;br&gt;3. 若确认为误刷，则进一步判断用户A的底库照与人员B的抓拍照的相似度，将二者的相似度控制在T1以下；&lt;br&gt;4. 若用户A多次更新底库过程中S(底库A*&amp;amp;抓拍B)都大于T1，建议引导用户A停用刷脸过闸，改用其他过闸方式，如二维码；&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1000" y="2830" width="1000" height="120" as="geometry" />
@@ -770,40 +770,33 @@
         <mxCell id="_u0KSfqB_Zb8n4j6yfHZ-108" value="&lt;span style=&quot;font-size: 32px&quot;&gt;误刷客诉处理策略&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1288.5" y="1600" width="303" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="_u0KSfqB_Zb8n4j6yfHZ-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="_u0KSfqB_Zb8n4j6yfHZ-175" target="_u0KSfqB_Zb8n4j6yfHZ-103" edge="1">
-          <mxGeometry x="1000" y="1600" as="geometry">
-            <Array as="points">
-              <mxPoint x="1624" y="2262" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_u0KSfqB_Zb8n4j6yfHZ-110" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="_u0KSfqB_Zb8n4j6yfHZ-109" vertex="1" connectable="0">
-          <mxGeometry x="-0.7736" y="-1" relative="1" as="geometry">
-            <mxPoint x="-22.939999999999998" y="-1" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="_u0KSfqB_Zb8n4j6yfHZ-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="_u0KSfqB_Zb8n4j6yfHZ-123" target="_u0KSfqB_Zb8n4j6yfHZ-85" edge="1">
           <mxGeometry x="-1000" y="1600" as="geometry">
             <mxPoint x="1440" y="2643" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_u0KSfqB_Zb8n4j6yfHZ-123" value="将该用户A以及&lt;br&gt;B人脸抓拍照的TopN用户&lt;br&gt;一同放入异常用户集；" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1360" y="2440" width="160" height="50" as="geometry" />
+          <mxGeometry x="1360" y="2297" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_u0KSfqB_Zb8n4j6yfHZ-176" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;fontSize=11;" parent="1" source="_u0KSfqB_Zb8n4j6yfHZ-175" target="_u0KSfqB_Zb8n4j6yfHZ-123" edge="1">
-          <mxGeometry x="-1000" y="1600" as="geometry" />
+          <mxGeometry x="-1000" y="1523" as="geometry" />
         </mxCell>
         <mxCell id="_u0KSfqB_Zb8n4j6yfHZ-177" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" parent="_u0KSfqB_Zb8n4j6yfHZ-176" vertex="1" connectable="0">
           <mxGeometry x="-0.4424" relative="1" as="geometry">
             <mxPoint y="20" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="QFfBQqacpw4Q1S9WYrsz-178" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;shadow=1;" edge="1" parent="1" source="_u0KSfqB_Zb8n4j6yfHZ-175">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1660" y="2185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="_u0KSfqB_Zb8n4j6yfHZ-175" value="S(A底库&amp;amp;B抓拍)&amp;lt; T1&lt;sub&gt;&amp;nbsp;&lt;/sub&gt;？" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1340" y="2237" width="200" height="50" as="geometry" />
+          <mxGeometry x="1340" y="2160" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_u0KSfqB_Zb8n4j6yfHZ-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_u0KSfqB_Zb8n4j6yfHZ-88" target="_u0KSfqB_Zb8n4j6yfHZ-175" edge="1">
-          <mxGeometry x="1000" y="1600" as="geometry">
-            <mxPoint x="1440" y="2240" as="targetPoint" />
+          <mxGeometry x="1000" y="1523" as="geometry">
+            <mxPoint x="1440" y="2163" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
@@ -1588,6 +1581,47 @@
               <mxPoint x="2420" y="-10" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="QFfBQqacpw4Q1S9WYrsz-185" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;shadow=1;" edge="1" parent="1" source="QFfBQqacpw4Q1S9WYrsz-179">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1440" y="2503" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1714" y="2503" />
+              <mxPoint x="1440" y="2503" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFfBQqacpw4Q1S9WYrsz-187" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="QFfBQqacpw4Q1S9WYrsz-179" target="QFfBQqacpw4Q1S9WYrsz-181">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QFfBQqacpw4Q1S9WYrsz-179" value="&lt;span style=&quot;font-size: 11px ; text-align: left&quot;&gt;用户A更新的人脸图与&lt;/span&gt;&lt;br style=&quot;font-size: 11px ; text-align: left&quot;&gt;&lt;span style=&quot;font-size: 11px ; text-align: left&quot;&gt;人脸抓拍图B的相似度S(A*&amp;amp;B)&lt;/span&gt;&amp;lt; T&lt;span style=&quot;font-size: 9.16667px&quot;&gt;1&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1606.13" y="2287" width="214.75" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="QFfBQqacpw4Q1S9WYrsz-200" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="QFfBQqacpw4Q1S9WYrsz-181" target="QFfBQqacpw4Q1S9WYrsz-183">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QFfBQqacpw4Q1S9WYrsz-201" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="QFfBQqacpw4Q1S9WYrsz-181" target="_u0KSfqB_Zb8n4j6yfHZ-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QFfBQqacpw4Q1S9WYrsz-202" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QFfBQqacpw4Q1S9WYrsz-201">
+          <mxGeometry x="0.2463" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFfBQqacpw4Q1S9WYrsz-181" value="更新次数达到3次" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1890" y="2308.44" width="166" height="60.13" as="geometry" />
+        </mxCell>
+        <mxCell id="QFfBQqacpw4Q1S9WYrsz-205" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;" edge="1" parent="1" source="QFfBQqacpw4Q1S9WYrsz-183">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1440.000000000001" y="2740" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1973" y="2540" />
+              <mxPoint x="1440" y="2540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFfBQqacpw4Q1S9WYrsz-183" value="引导用户A使用二维码，并删除A的相关底库" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
+          <mxGeometry x="1919.5" y="2410" width="107" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
